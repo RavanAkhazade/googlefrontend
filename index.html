@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<center>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+        <ul>
+            <li><a href="advancedsearch.html">Advanced Search</a></li>
+            <li><a href="imagessearch.html">Images</a></li>
+        </ul>
+        <style>
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  font-family: arial, sans-serif;
+  color: #000;
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+li a:hover {
+  text-decoration: underline;
+}
+
+.logo{
+  margin-top:200px;
+  margin-bottom:20px;
+}
+.bar{
+  margin:0 auto;
+  width:500px;
+  height:45px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  font-size:16px;
+  padding-left:30px;
+
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+ }
+
+.button{
+  background-color: #f5f5f5;
+  border:none;
+  color: #14141f;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+  margin-top:30px;
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  cursor: pointer;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+
+        </style>
+    </head>
+    <body>
+    <div class="logo">
+        <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+        <form action="https://google.com/search">
+
+            <input class="bar" type="text" title="Search" name="q">
+            <div>
+                <input type="submit" name="btnK" value="Google Search" class="button">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button">
+            </div>
+        </form>
+    </div>
+    </body>
+</center>
+</html>

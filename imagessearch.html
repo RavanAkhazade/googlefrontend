@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<center>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Images</title>
+            <a href="index.html">Get back</a>
+        <style>
+
+
+a {
+  float: right;
+  font-family: arial, sans-serif;
+  color: #000;
+  padding: 10px 100px;
+  margin-top:-180px;
+  text-decoration: none;
+  font-size:14px;
+}
+a:hover {
+  text-decoration: underline;
+}
+span {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position:relative;
+    right:60px;
+    white-space: nowrap;
+}
+.logo{
+  margin-top:200px;
+  margin-bottom:20px;
+}
+.bar{
+  margin:0 auto;
+  width:450px;
+  height:45px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  font-size:16px;
+  padding-left:30px;
+
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+ }
+
+.button{
+  background-color: #f5f5f5;
+  border:none;
+  color: #14141f;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+  margin-top:30px;
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  cursor: pointer;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+
+</style>
+    </head>
+    <body>
+    <div class="logo">
+        <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <span>images</span>
+    </div>
+        <form action="http://images.google.com/images">
+            <input class="bar" type="text" title="Search" name="q">
+            <div>
+                <input class="button" type="submit" value="Image Search">
+            </div>
+        </form>
+    </div>
+    </body>
+</center>
+</html>
